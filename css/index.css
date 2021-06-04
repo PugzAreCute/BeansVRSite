@@ -3,8 +3,16 @@
     font-family: 'Barlow', sans-serif;
 }
 .defaultify_button{
+    transition: width 1s,height 1s, background-color 1s;
+    width: 190px;
     border-radius: 90px;
+    height: 40px;
+    background-color: rgb(11, 36, 111);
+    color: white;
+    border:none;
 }
 .defaultify_button:hover{
-    background-color: yellow;
+    width: 195px;
+    height: 45px;
+    background-color: #0f204c;
 }
