@@ -2,3 +2,7 @@
     text-shadow: 2px 2px 5px red;
     font-style: italic;
 }
+#beanout{
+    background: url("../images/beans.jfif");
+    color: #26ff00;
+}
