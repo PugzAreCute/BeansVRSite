@@ -21,11 +21,11 @@
     height: 45px;
     background-color: #0f204c;
 }
-div.b2 img, .b2 .caption {
+div.doit img, .doit .caption {
     width: 100%;
 }
 
-.b2{
+.doit{
     margin: auto;
     max-width: 400px;
     width: 40% !important;
@@ -43,4 +43,5 @@ s{
     color: #fff;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
