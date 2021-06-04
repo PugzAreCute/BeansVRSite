@@ -5,6 +5,7 @@
     background-color: #343434;
     color: wheat;
     text-decoration: none;
+
 }
 .defaultify_button{
     background-color: rgb(11, 36, 111);
@@ -35,4 +36,11 @@ div.b2 img, .b2 .caption {
 }
 s{
     text-decoration: line-through;
+}
+.beanify{
+    background: url("../images/beans.jfif") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
