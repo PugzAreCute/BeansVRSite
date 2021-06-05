@@ -34,8 +34,9 @@ div.doit img, .doit .caption {
     margin-top: 10px;
     background-color: green;
 }
-s{
-    text-decoration: line-through;
+span{
+    text-decoration: line-through !important;
+    text-decoration-color: #ff0000 !important;
 }
 .beanify {
     background: url("../images/beans.jfif") no-repeat center center;
@@ -43,5 +44,5 @@ s{
     color: #fff;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-clip: text;
+    text-decoration: line-through;
 }
