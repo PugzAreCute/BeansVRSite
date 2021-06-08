@@ -3,23 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>BeanVR - Please enter your OTP!</title>
-    <link rel="stylesheet" href="../css/commons.css">
     <style>
-        div, h1{
-            position: absolute;
-            top:100px;
-            z-index: 1;
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+        body{
+            background-image: url("../images/beans.jfif") !important;
         }
+
+        *{
+            font-family: 'Barlow', sans-serif;
+            text-align: center;
+            color: wheat;
+            text-decoration: none;
+
+        }
+
+        span{
+            text-decoration: line-through !important;
+            text-decoration-color: #ff0000 !important;
+        }
+        .defaultify_button{
+            background-color: rgb(11, 36, 111);
+            transition: width 1s,height 1s, background-color 1s;
+            width: 190px;
+            border-radius: 90px;
+            height: 40px;
+            color: white;
+            border:none;
+        }
+        .defaultify_button:hover{
+            width: 195px;
+            height: 45px;
+            background-color: #0f204c;
+        }
+
     </style>
 </head>
 <body>
 <div>
-    <img src="../images/beans.jfif" alt="BEANS" width="100%"height="100%">
     <h3 style="overflow: auto">In order to pay your bill of 2384723563257823602364023460 BEANS Please enter the OTP sent to your phony number (BEANS-SNAEB-BEANS-xxxx)</h3>
     <label>
         OTP: BEANS-OhuiN-
         <input type="text">
     </label>
+    <br>
+    <a href="success.html"><button class="defaultify_button">Continue</button></a>>
 </div>
 </body>
 </html>
